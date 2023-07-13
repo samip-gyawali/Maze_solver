@@ -26,7 +26,7 @@
 ### `Maze.__isGoal()` module:
 - Takes a state (or position of the agent) as a parameter and returns if the state is the goal state (a goal check).
 
-### `Maze.solve()` modukeL
+### `Maze.solve()` module:
 - Creates a node of the start state and sets its `parent` and `action` to `None` and adds it to the frontier.
 - The `solved` variable is a boolean which indicates if the maze is solved.
 - A loop begins until the maze is solved or the `frontier` is empty (in which case, maze has no solution).
